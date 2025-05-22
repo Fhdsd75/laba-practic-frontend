@@ -1,8 +1,11 @@
 <template>
   <div class="text-center">
-    <h1 class="display-4">Добро пожаловать в MediaCatalog</h1>
-    <p class="lead">Ваш личный каталог фильмов, книг и игр.</p>
-    <router-link to="/catalog" class="btn btn-primary me-2">Перейти в каталог</router-link>
-    <router-link to="/add"     class="btn btn-outline-primary">Добавить новый</router-link>
+    <div class="p-5 mb-5 rounded bg-dark text-white">
+      <h1 class="display-4 text-steam-accent mb-3">YOUR GAME CLOUD</h1>
+      <p class="lead">Управляйте своей библиотекой игр в стиле Steam.</p>
+      <router-link to="/catalog" class="btn btn-steam btn-lg mt-3">
+        Перейти в каталог
+      </router-link>
+    </div>
   </div>
 </template>

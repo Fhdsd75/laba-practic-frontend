@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Half-Life 2",
+    "description": "Постапокалиптический шутер от первого лица от Valve.",
+    "coverUrl": "https://steamcdn-a.akamaihd.net/steam/apps/220/header.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Portal 2",
+    "description": "Головоломка с портальной пушкой во вселенной Half-Life.",
+    "coverUrl": "https://steamcdn-a.akamaihd.net/steam/apps/620/header.jpg"
+  }
+]

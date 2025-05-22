@@ -1,5 +1,58 @@
-# Vue 3 + Vite
+# GameCloud
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+**GameCloud** — это SPA-приложение для управления коллекцией игр в стиле Steam.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Описание
+
+Приложение позволяет:
+
+* Просматривать коллекцию игр с изображениями и описаниями
+* Добавлять новые игры через форму
+* Удалять игры из коллекции
+* Сохранять данные в `localStorage`, чтобы список сохранялся после перезагрузки
+* Просматривать подробную информацию и «облачное превью» игры (симулируемое окно запуска)
+
+Технологии:
+
+* Vue 3 (Vite)
+* Vue Router
+* Pinia (state management)
+* Bootstrap 5 + пользовательская тема в стиле Steam
+
+## Установка и запуск
+
+```bash
+# Склонируйте репозиторий
+git clone https://github.com/Fhdsd75/laba.git
+cd gamecloud
+
+# Установите зависимости
+npm install
+
+# Запустите в режиме разработки
+npm run dev
+
+# Сборка для продакшена
+npm run build
+
+# Просмотр собранного приложения
+npm run serve
+```
+
+# примичание 
+для того что бы зайти в добавление игр в библеотеку нужно в строке сайта добавить /add
+( сделанно так что бы была возможность вывести его для администраторов)
+
+## Использование ИИ-инструментов
+
+В процессе разработки использовались следующие инструменты на базе искусственного интеллекта:
+
+* **ChatGPT (OpenAI)** — для генерации структуры проекта, идеи, исправление ошибок и конфликтов
+* **DALL·E** — для создания логотипа «GameCloud» в стиле Steam.
+
+
+# личный коментарий
+мне стало лень делать комиты каждый раз по этому будет один общий комит
+
+
+**Приятной игры!**

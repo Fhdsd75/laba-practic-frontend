@@ -1,7 +1,4 @@
-// src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
-
-// наши страницы
 import Home     from '../views/Home.vue'
 import Catalog  from '../views/Catalog.vue'
 import Add      from '../views/Add.vue'
@@ -13,7 +10,7 @@ const routes = [
   { path: '/catalog',   name: 'Catalog', component: Catalog },
   { path: '/add',       name: 'Add',     component: Add },
   { path: '/details/:id', name: 'Details', component: Details, props: true },
-  { path: '/about',     name: 'About',   component: About },
+  { path: '/about',     name: 'About',   component: About }
 ]
 
 export default createRouter({
